@@ -1,0 +1,211 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--Eggshell);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 5%;
+    font-family: 'Outfit', sans-serif;
+    color: var(--Wenge-Brown);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--White);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.imagem-omelete {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ----DESCRICAO---- */
+
+.descricao {
+    padding: 20px 0;
+}
+.descricao h1 {
+    font-size: 3rem;
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 500;
+    color: var(--Dark-Charcoal);
+}
+
+.descricao p {
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+/* ----TEMPO-PREPARACAO---- */
+
+.tempo-preparacao {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.tempo-preparacao h2 {
+    color: var(--text-secundary);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.tempo-preparacao ul {
+    list-style-type: disc;
+    padding: 10px 20px;
+}
+
+.tempo-preparacao ul li {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.tempo-preparacao ul li::marker{
+    color: var(--text-secundary);
+}
+
+.tempo-preparacao ul li:last-child {
+    margin-bottom: 0;
+}
+
+.tempo-preparacao ul li::before {
+    content: "";
+    margin-left: 12px;
+}
+
+.bold {
+    font-weight: 700;
+    color: var(--Wenge-Brown);
+}
+
+/* ----INGRADIENTES---- */
+
+.ingradientes {
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--Light-Grey);
+}
+
+.ingradientes h2 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.ingradientes ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.ingradientes ul li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.ingradientes ul li:last-child {
+    margin-bottom: 0;
+}
+
+.ingradientes ul li::marker{
+    color: var(--text-primary);
+}
+
+.ingradientes ul li::before {
+    content: "";
+    margin-left: 12px;
+}
+
+/* ----INTRUCOES---- */
+
+.instrucoes {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--Light-Grey);
+}
+
+.instrucoes h2 {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    padding-bottom: 20px;
+}
+
+.instrucoes ul {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.instrucoes ul li {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.instrucoes ul li:last-child{
+    margin-bottom: 0;
+}
+
+.instrucoes ul li::before {
+    content: "";
+    margin-left: 16px;
+}
+
+.instrucoes ul li::marker {
+    color: var(--text-primary);
+    font-weight: 700;
+
+}
+
+/* ----NUTRICAO---- */
+
+.nutricao {
+    padding-top: 20px;
+}
+
+.nutricao h2 {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    padding-bottom: 20px;
+}
+
+.nutricao p {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+.nutricao .info-nutricao table {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-collapse: collapse;
+}
+
+.nutricao .info-nutricao table tr {
+    border-bottom: 1px solid var(--Light-Grey);
+    line-height: 40px;
+}
+
+.nutricao .info-nutricao table tr:last-child {
+    border: none;
+}
+
+.bold-nutricao {
+    font-weight: 700;
+    color: var(--text-primary);
+}

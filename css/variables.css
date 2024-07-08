@@ -1,0 +1,13 @@
+:root {
+    /* ----PRIMARY COLORS---- */
+    --text-primary: hsl(14, 45%, 36%);
+    --text-secundary: hsl(332, 51%, 32%);
+    
+    /* ----NEUTRAL COLORS---- */
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
