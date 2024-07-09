@@ -38,4 +38,4 @@ I also learned how to create various types of CSS such as reset.css, style.css, 
 
 ### Links
 
-- Solution URL: [Solition od the Recipe Card](https://your-solution-url.com)
+- Solution URL: [Solition od the Recipe Card](https://fctexi.github.io/Recipe-page/)
